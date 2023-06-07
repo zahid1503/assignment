@@ -7,7 +7,7 @@ import com.samta.assignment.response.QuestionResponseDto;
 
 public interface IQuizService {
 
-    String  fetchAndStoreQuestionsIntoDB();
+    String  fetchAndStoreIntoDB();
 
     QuestionResponseDto getRandomQuestion();
 

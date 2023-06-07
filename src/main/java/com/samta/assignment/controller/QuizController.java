@@ -19,7 +19,7 @@ public class QuizController {
 
     @GetMapping("/getQuestions")
     public ResponseEntity<String> fetchAndStoreQuestions() {
-        String response =  quizService.fetchAndStoreQuestionsIntoDB();
+        String response =  quizService.fetchAndStoreIntoDB();
         return ResponseEntity.ok().body(response);
     }
 

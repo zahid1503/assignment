@@ -1,5 +1,8 @@
 package com.samta.assignment.utilities;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Constants {
     public static final String QUESTION_NOT_FOUND = "question not found";
     public static final String EMPTY_QUESTION_LIST = "question list is empty";
