@@ -2,14 +2,6 @@
 
 The Quiz Challenge is a Spring Boot-based RESTful web service that provides an interface to manage and play quizzes. It allows users to fetch random questions, store them in a database, and participate in a quiz by answering questions.
 
-## Features
-
-- Fetch 5 random questions from an external API and store them in the database.
-- Create a REST API endpoint to retrieve a question along with its ID.
-- Create a REST API endpoint to submit an answer for a given question ID and retrieve the correct answer along with the next question.
-- Support for PostgreSQL database.
-- Error handling and appropriate HTTP response codes.
-
 ## Technologies Used
 
 - Java
